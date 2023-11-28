@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="Playfair.css">
 </head>
 <body>
+    <div class="container">
+
     <h2>Playfair Cipher</h2>
     <label for="inputText">Enter Text:</label>
     <textarea id="inputText" rows="4" cols="50"></textarea>
@@ -19,7 +21,26 @@
     <br>
     <label for="outputText">Result:</label>
     <textarea id="outputText" rows="4" cols="50" readonly></textarea>
-
+        </div>
+        <div class="animation-container">
+            <div class="lightning-container">
+                <div class="lightning white"></div>
+                <div class="lightning red"></div>
+            </div>
+            <div class="boom-container">
+                <div class="shape circle big white"></div>
+                <div class="shape circle white"></div>
+                <div class="shape triangle big yellow"></div>
+                <div class="shape disc white"></div>
+                <div class="shape triangle blue"></div>
+            </div>
+            <div class="boom-container second">
+                <div class="shape circle big white"></div>
+                <div class="shape circle white"></div>
+                <div class="shape disc white"></div>
+                <div class="shape triangle blue"></div>
+            </div>
     <script src="Playfair_script.js"></script>
+
 </body>
 </html>
